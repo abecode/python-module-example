@@ -1,0 +1,17 @@
+[project]
+name = "python-module-example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "abecode", email = "abe.kazemzadeh@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+python-module-example = "python_module_example:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
